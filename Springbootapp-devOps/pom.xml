@@ -13,8 +13,11 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Springbootapp-devOps</name>
 	<description>Spring Boot Pipeline Application</description>
-	<properties>
-		<java.version>17</java.version>
+	<properties>	
+  <sonar.organization>week3-2</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+<sonar.login>${env.SONAR_TOKEN}</sonar.login>
+	<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		
