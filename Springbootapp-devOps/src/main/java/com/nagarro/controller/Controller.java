@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 	
 	@GetMapping("/hello")
-	private String getHello() {
+	public String getHello() {
 		return "Hello, This is SpringBoot Project";
 	}
 
